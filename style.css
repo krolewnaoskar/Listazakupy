@@ -1,0 +1,112 @@
+body{
+    box-sizing: border-box;
+}
+
+.container{
+   
+}
+
+
+/*container style*/
+
+input[type="text"] {
+    width: 300px;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid black;
+    padding-left: 2px;
+    margin: 10px;
+}
+
+
+
+input[type="number"],
+select {margin: 10px;
+    width: 60px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding-left: 2px;
+}
+
+input[type="submit"] {margin:10px;
+    width: 100px;
+    height: 35px;
+    background: black;
+    color: #fff;
+    border-radius: 8px;
+    border: 0px;
+}
+
+input[type="submit"]:hover{
+    opacity:0.8;
+    transition: 0.3s;
+    color:grey;
+}
+
+select {
+    height: 30px;
+}
+
+.row{
+    margin:10px;
+}
+
+
+
+#pokaz{
+    width: 100px;
+    background: grey;
+    color:#fff;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+/*liclass*/
+
+.liclass {
+    position: relative;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height:55px;
+    margin-top:10px;
+}
+
+.liclass button {
+    position: absolute;
+    right: 0%;
+    z-index: 10;
+    background:transparent;
+    border:1px solid black;
+    border-radius:8px;
+  
+}
+
+/*input submit style*/
+#wyslij{
+    background: green;
+}
+
+#usun{
+    background: red;
+}
+
+/*footer*/
+
+footer{
+    text-align:center;
+    background-color: blue;
+    color: white;
+    padding-top: 20px;
+    padding: 20px;
+}
+
+footer .col-md-12{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+

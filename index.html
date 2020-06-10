@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shoping List </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+        integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Program do listy zakupów</h1>
+            <p class="lead">Aplikacja napisana w języku Java Script Autor Oskar Stabrawa klasa 8B</p>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class=row>
+            <div class="col-md-12">
+                <h2>wpisz poniżej nazwy produktów oraz ich ilość a następnie kliknij +</h2>
+                <input type="text" id="produkt" placeholder="wpisz nazwę produktu">
+                <input type="number" id="ilosc" placeholder="ilosc">
+                <select name="wybor" id="wybor">
+                    <option value="szt">szt</option>
+                    <option value="kg">kg</option>
+                    <option value="l">litry</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <input type="submit" id="wyslij" value="+">
+                <input type="submit" id="usun" value="-">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ol></ol>
+
+                <label for="">Ilosć pozycji do kupienia</label>
+                <input type="text" value='' id="pokaz">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                   technologie użyte w projekcie:
+                   JavaScript , HTML5 , CSS 3 ,Bootstrap
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
